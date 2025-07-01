@@ -72,30 +72,5 @@ sessions/*.json: Lưu trữ thông tin phiên chat (AES keys, metadata)
 Tính năng bảo mật
 
 Đã triển khai
-Mã hóa end-to-end với AES-256
-Xác thực người gửi bằng chữ ký RSA
-Trao đổi khóa an toàn
-Kiểm tra tính toàn vẹn tin nhắn
-Session management
-Password hashing
-
-Ưu điểm
-Bảo mật cao: Kết hợp mã hóa đối xứng và bất đối xứng
-Xác thực mạnh: Chữ ký số đảm bảo tin nhắn không bị giả mạo
-Giao tiếp real-time: WebSocket cho trải nghiệm mượt mà
-Kiến trúc đơn giản: Dễ hiểu và bảo trì
-Mã nguồn rõ ràng: Code được cấu trúc tốt và có comment
-
-Nhược điểm và giới hạn
-Lưu trữ khóa: Private key được lưu trên server (không ideal)
-Scalability: Sử dụng file JSON làm database
-Single point of failure: Tất cả dữ liệu trên một server
-Key management: Chưa có cơ chế rotate khóa
-Forward secrecy: Thiếu Perfect Forward Secrecy
-
-Kết luận
-Ứng dụng SecureChat minh họa thành công việc kết hợp các kỹ thuật mã hóa hiện đại để tạo ra một hệ thống chat bảo mật. Mặc dù còn một số hạn chế, đây là một nền tảng tốt để phát triển thêm các tính năng bảo mật cao cấp hơn.
-
-<p align="center">
-        <img src="" alt="DaiNam University Logo" width="200"/>
+Mã hóa end-to-end với A203955.png" alt="Đăng ký đăng nhập" width="200"/>
     </p>
