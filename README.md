@@ -97,4 +97,4 @@ Kết luận
 Ứng dụng SecureChat minh họa thành công việc kết hợp các kỹ thuật mã hóa hiện đại để tạo ra một hệ thống chat bảo mật. Mặc dù còn một số hạn chế, đây là một nền tảng tốt để phát triển thêm các tính năng bảo mật cao cấp hơn.
 
 
-
+https://github.com/bngoc04/BTL_ATTT/blob/main/Screenshot%202025-07-01%20203955.png
