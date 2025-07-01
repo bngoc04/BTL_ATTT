@@ -96,4 +96,6 @@ Forward secrecy: Thiếu Perfect Forward Secrecy
 Kết luận
 Ứng dụng SecureChat minh họa thành công việc kết hợp các kỹ thuật mã hóa hiện đại để tạo ra một hệ thống chat bảo mật. Mặc dù còn một số hạn chế, đây là một nền tảng tốt để phát triển thêm các tính năng bảo mật cao cấp hơn.
 
-
+<p align="center">
+        <img src="" alt="DaiNam University Logo" width="200"/>
+    </p>
