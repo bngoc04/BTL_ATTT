@@ -33,10 +33,52 @@ Nhận gói tin → Xác thực chữ ký RSA → Giải mã tin nhắn AES → 
 Gửi ACK/NACK
 
 Cấu trúc dự án
-securký" width="600"/>
+secure-chat/
+├── app.py                 # Ứng dụng Flask chính
+├── templates/
+│   ├── base.html         # Template cơ sở
+│   ├── index.html        # Giao diện chat chính
+│   ├── login.html        # Trang đăng nhập
+│   └── register.html     # Trang đăng ký
+├── static/
+│   ├── css/
+│   │   └── style.css     # Stylesheet
+│   └── js/
+│       └── chat.js       # JavaScript chat logic
+├── sessions/             # Thư mục lưu phiên chat
+├── users.json           # Database người dùng (JSON)
+
+Cài đặt và sử dụng
+Yêu cầu hệ thống
+
+Python 3.7+
+pip (Python package manager)
+
+Các thư viện cần thiết
+pip install flask flask-socketio pycryptodome
+Chạy ứng dụng
+bashpython app.py
+Ứng dụng sẽ chạy tại  http://127.0.0.1:5000
+
+Hướng dẫn sử dụng
+Đăng ký tài khoản: Truy cập /register để tạo tài khoản mới
+Đăng nhập: Sử dụng tài khoản đã tạo để đăng nhập
+Chọn người chat: Từ danh sách người dùng, chọn người muốn chat
+Gửi tin nhắn: Nhập tin nhắn và nhấn Send
+Xem trạng thái: Theo dõi trạng thái tin nhắn (đã gửi/nhận/lỗi)
+
+Chi tiết kỹ thuật
+Thuật toán mã hóa
+AES-256-CBC: Mã hóa đối xứng cho nội dung tin nhắn
+RSA-2048: Mã hóa bất đối xứng cho trao đổi khóa và chữ ký số
+SHA-256: Hàm băm để đảm bảo tính toàn vẹn
+PKCS1_v1_5: Padding scheme cho RSA
+PKCS#7: Padding cho AES
+
+<p align="center">
+        <img src="Screenshot 2025-07-01 203955.png" alt="Trang đăng ký/ đăng nhập" width="600"/>
     </p>
 
 <p align="center">
-        <img src="image.png" alt="Trang nhắn tin " width="600"/>
+        <img src="image.png" alt="Trang nhắn tin" width="600"/>
     </p>
-
