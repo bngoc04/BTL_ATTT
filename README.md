@@ -36,7 +36,6 @@ Cấu trúc dự án
 securký" width="600"/>
     </p>
 
-
 <p align="center">
         <img src="image.png" alt="Trang nhắn tin " width="600"/>
     </p>
