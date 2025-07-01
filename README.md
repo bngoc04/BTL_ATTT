@@ -74,3 +74,6 @@ Tính năng bảo mật
 Đã triển khai
 Mã hóa end-to-end với A203955.png" alt="Đăng ký đăng nhập" width="200"/>
     </p>
+<p align="center">
+        <img src="image.png" alt="Đăng ký đăng nhập" width="200"/>
+    </p>
